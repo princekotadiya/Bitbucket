@@ -1,0 +1,83 @@
+/* Question.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  background-color: #edd3b5;
+
+  }
+
+.question-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #edd3b5;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.options {
+  cursor: pointer;
+}
+
+.answers {
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+}
+
+.explanation {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #dcd8d2;
+}
+
+.next-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #218838;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.quiz-question {
+  color: blue;
+}

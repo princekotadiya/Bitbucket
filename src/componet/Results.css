@@ -1,0 +1,53 @@
+/* Results.css */
+.results-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin: 20px;
+    background: antiquewhite;
+  }
+  
+  .results-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .wrong {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .restart-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .restart-btn:hover {
+    background-color: darkblue;
+  }
+  
+  .total-q{
+    color: black;
+  }
+
+  .total-c{
+    color: green;
+  }
+
+  .total-i{
+    color: red;
+  }
+
+  .results{
+    color: blue;
+  }
